@@ -1,0 +1,8 @@
+joblib
+scikit-learn
+numpy
+pandas
+wandb
+pytest
+dotenv
+nltk

@@ -1,0 +1,22 @@
+2026-05-14 19:08:55,910 INFO    MainThread:19628 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\PedroF\Desktop\UPM\MLOps\src\wandb\run-20260514_190855-j3l6zqer\logs\debug.log
+2026-05-14 19:08:55,910 INFO    MainThread:19628 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\PedroF\Desktop\UPM\MLOps\src\wandb\run-20260514_190855-j3l6zqer\logs\debug-internal.log
+2026-05-14 19:08:55,910 INFO    MainThread:19628 [wandb_init.py:init():851] calling init triggers
+2026-05-14 19:08:55,912 INFO    MainThread:19628 [wandb_init.py:init():856] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-05-14 19:08:55,912 INFO    MainThread:19628 [wandb_init.py:init():899] starting backend
+2026-05-14 19:08:55,913 INFO    MainThread:19628 [wandb_init.py:init():914] sending inform_init request
+2026-05-14 19:08:56,264 INFO    MainThread:19628 [wandb_init.py:init():919] backend started and connected
+2026-05-14 19:08:56,268 INFO    MainThread:19628 [wandb_init.py:init():989] updated telemetry
+2026-05-14 19:08:56,280 INFO    MainThread:19628 [wandb_init.py:init():1012] communicating run to backend with 90.0 second timeout
+2026-05-14 19:08:56,785 INFO    MainThread:19628 [wandb_init.py:init():1057] starting run threads in backend
+2026-05-14 19:08:57,116 INFO    MainThread:19628 [wandb_run.py:_console_start():2509] atexit reg
+2026-05-14 19:08:57,116 INFO    MainThread:19628 [wandb_run.py:_redirect():2359] redirect: wrap_raw
+2026-05-14 19:08:57,116 INFO    MainThread:19628 [wandb_run.py:_redirect():2428] Wrapping output streams.
+2026-05-14 19:08:57,116 INFO    MainThread:19628 [wandb_run.py:_redirect():2451] Redirects installed.
+2026-05-14 19:08:57,118 INFO    MainThread:19628 [wandb_init.py:init():1095] run started, returning control to user process
+2026-05-14 19:08:57,119 INFO    MainThread:19628 [wandb_run.py:_config_callback():1332] config_cb None None {'vectorizer': 'CountVectorizer', 'classifier': 'LogisticRegression', 'language': 'en', 'seed': 42, 'test_size': 0.2}
+2026-05-14 19:08:57,208 INFO    MainThread:19628 [wandb_run.py:_finish():2271] finishing run pedrofdezs01-universidad-polit-cnica-de-madrid/amazon-sentiment-mlops/j3l6zqer
+2026-05-14 19:08:57,208 INFO    MainThread:19628 [wandb_run.py:_atexit_cleanup():2476] got exitcode: 0
+2026-05-14 19:08:57,209 INFO    MainThread:19628 [wandb_run.py:_restore():2458] restore
+2026-05-14 19:08:57,209 INFO    MainThread:19628 [wandb_run.py:_restore():2464] restore done
+2026-05-14 19:08:59,383 INFO    MainThread:19628 [wandb_run.py:_footer_sync_info():3877] logging synced files

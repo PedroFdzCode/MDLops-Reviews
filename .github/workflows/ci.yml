@@ -1,0 +1,35 @@
+name: CI - Tests MLOps
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
+
+      - name: Ejecutar tests unitarios
+        run: python -m pytest tests/test_unitario.py -v
+
+      - name: Ejecutar tests de datos
+        run: python -m pytest tests/test_datos.py -v
+
+      - name: Ejecutar tests del modelo
+        run: python -m pytest tests/test_modelo.py -v
