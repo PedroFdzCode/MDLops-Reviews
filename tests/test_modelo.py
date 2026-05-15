@@ -5,8 +5,8 @@ import os
 BASE = os.path.dirname(os.path.abspath(__file__))
 
 def test_load_model():
-    model = joblib.load(BASE, "models/model.pkl")
-    vectorizer = joblib.load(BASE, "models/vectorizer.pkl")
+    model = joblib.load(os.path.join(BASE, "..", "models", "model.pkl"))
+    vectorizer = joblib.load(os.path.join(BASE, "..", "models", "vectorizer.pkl"))
     assert model is not None
     assert vectorizer is not None
 
