@@ -12,11 +12,10 @@ def test_load_model():
 
 
 def test_predict_labels():
-    model = joblib.load("models/model.pkl")
-    vectorizer = joblib.load("models/vectorizer.pkl")
+    model = joblib.load(os.path.join(BASE, "..", "models", "model.pkl"))
+    vectorizer = joblib.load(os.path.join(BASE, "..", "models", "vectorizer.pkl"))
     vector = vectorizer.transform(["great product"])
     assert model.predict(vector)[0] in ["positive", "negative"]
-
 
 #Accuracy
 def test_accuracy_positive_low():
