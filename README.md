@@ -120,5 +120,5 @@ El proyecto tiene integración continua configurada con GitHub Actions. En cada 
 ## Links
 
 - **GitHub:** https://github.com/PedroFdzCode/MDLops-Reviews
-- **Weights & Biases:** https://wandb.ai/pedrofdezs01-universidad-polit-cnica-de-madrid/amazon-sentiment-mlops/reports/An-lisis-de-Experimentos-Amazon-Sentiment-Analysis--VmlldzoxNjg5NTc3NA
+- **Weights & Biases:** https://api.wandb.ai/links/pedrofdezs01-universidad-polit-cnica-de-madrid/aluf6qjw
 - **Endpoint AWS:** https://92t3a8mmij.execute-api.eu-north-1.amazonaws.com/default/mdlops-reviews
